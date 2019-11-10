@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Jua&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean');
+
+* {
+    font-family: 'Jua', sans-serif;
+}
+
+body {
+  background: url('/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.title h1 {
+    color: #fc034e;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
+.carousel-inner img {
+  width: 50%;
+  height: 500px;
+}
+
+.carousel{
+    margin: 0px;
+}
+
+.carousel-item{
+    text-align: center;
+    min-height: 500px;
+}
+
+.font {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.p {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
